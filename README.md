@@ -4,6 +4,7 @@ exerciseAgo
 ##### This project is a exercise only #####
 
 - Create Project MVC 4 Empty In Visual Studio
+- Create New Project Use Class Library For UnitTests
 - Use sql express 
 - Download database for test at below 
     - CREATE DATABASE exerciseAgodaDB;
@@ -17,6 +18,6 @@ exerciseAgo
     - INSERT INTO hotel (name ,rating ,status) VALUES ('amarin' ,5 ,'active')
     - INSERT INTO hotel (name ,rating ,status) VALUES ('pullman' ,5 ,'active')
 
-- require SimpleInject, handlebars, jquery, bootstrap can include with nuget
+- require SimpleInject, NUnit, handlebars, jquery, bootstrap can include with nuget
 
 ##### This project is a exercise only #####
