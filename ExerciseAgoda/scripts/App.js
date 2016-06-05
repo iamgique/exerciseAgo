@@ -1,17 +1,5 @@
 ﻿'use strict';
 
-/*
-var ExerciseAgoda = angular.module('ExerciseAgoda', []);
-
-ExerciseAgoda.controller('ExerciseAgodaController', function ExerciseAgodaController($scope, $http) {
-    $scope.fetchHotels = function () {
-        $http.post("/Default/getHotel").success(function (data, status) {
-            $scope.hotelData = data;
-        })
-    }
-});
-*/
-
 $(function () {
     var hotelScript = $("#fetchHotel-template").html();
     var hotel = Handlebars.compile(hotelScript);
