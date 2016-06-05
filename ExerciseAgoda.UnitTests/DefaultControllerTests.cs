@@ -14,12 +14,6 @@ namespace ExerciseAgoda.UnitTests
     {
         private readonly IHotelRepository repository;
 
-        [SetUp]
-        public void Init()
-        {
-            
-        }
-
         [Test]
         public void TestDepartmentCreateErrorView()
         {
