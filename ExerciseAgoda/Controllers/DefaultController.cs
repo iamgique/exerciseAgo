@@ -19,7 +19,7 @@ namespace ExerciseAgoda.Controllers
         
         public ActionResult Static()
         {
-            return View("~/Views/Default/Index.cshtml", repository.fetchHotels());
+            return View("~/Views/Default/Static.cshtml", repository.fetchHotels());
         }
 
         public ActionResult Ajax()

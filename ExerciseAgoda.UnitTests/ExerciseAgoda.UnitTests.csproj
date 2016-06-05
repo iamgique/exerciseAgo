@@ -65,10 +65,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\superagent\superagent.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ExerciseAgoda\ExerciseAgoda.csproj">
       <Project>{f83c21c3-79fc-405a-bc10-c62a02c163fd}</Project>
       <Name>ExerciseAgoda</Name>
