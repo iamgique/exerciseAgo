@@ -1,0 +1,61 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Content/bootstrap.css" rel="stylesheet">
+    <link href="../Content/bootstrap-theme.css" rel="stylesheet">
+    <link href="../Content/offcanvas.css" rel="stylesheet">
+    <title>Ajax</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-xs-12 col-sm-12">
+                <div class="jumbotron">
+                    <h1>Exercise Agoda</h1>
+                    <p>.net MVC 4, Ajax call list of hotel render to table with handlebars. Use bootstrap for nicer. Create repository and SimpleInject for Ajax view and Static. Create UnitTests, DatabaseTests, jsTests and uiTests</p>
+                </div>
+            </div>
+        </div>
+        
+        <script id="fetchHotel-template" type="text/x-handlebars-template">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">Hotel List</div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>star rating</th>
+                            <th>status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {{#each this}} {{list}} {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+        </script>
+        <div class="content-hotel"></div>
+        <button id="fetchHotels" class="btn btn-primary">Ajax Call list hotel</button>
+        <hr />
+        <footer>
+            © 2016 Sakul Montha for Agoda
+        </footer>
+    </div>
+    <script src="../scripts/jquery-1.9.1.min.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <script src="../scripts/handlebars.js"></script>
+    <script src="../scripts/App.js"></script>
+</body>
+</html>
